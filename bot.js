@@ -1,5 +1,5 @@
 //GitHub Action用
-/*const {TwitterApi}=require('twitter-api-v2');
+const {TwitterApi}=require('twitter-api-v2');
 
 function getRandomMessage(){
     const msgData=process.env.MESSAGE_DATA;
@@ -33,13 +33,13 @@ async function postOnomichiMessage(){
 }
 
 postOnomichiMessage();
-*/
+
 
 
 
 
 //ターミナルを叩く用
-require('dotenv').config();  //インストール忘れてた
+/*require('dotenv').config();  //インストール忘れてた
 const { TwitterApi } = require('twitter-api-v2');
 const schedule = require('node-schedule');
 const messages=require('./messages.js');
@@ -83,4 +83,6 @@ function startOnomichiBot() {
    console.log('Botが起動しました');
 }
 
+
 startOnomichiBot();
+*/
